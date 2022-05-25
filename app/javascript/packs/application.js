@@ -11,6 +11,7 @@ import "channels"
 require('jquery')
 require('user_menu.js')
 
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()

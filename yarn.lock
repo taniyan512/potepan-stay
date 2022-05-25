@@ -943,6 +943,11 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
+"@rails/actioncable@^6.0.0":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-6.0.5.tgz#a889f25b0c13ea0215d747e32fa3d1a52967f17b"
+  integrity sha512-79sIsTpIoHnJ6pRHKaC6h5NMRpY+VZD4mqOKN/035X1ehxHgToDWvgMZ4jV5y1qeObg4enmNESmgeKoImYGzOw==
+
 "@rails/activestorage@^6.0.5":
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/@rails/activestorage/-/activestorage-6.0.5.tgz#446e4b3f45bf1d4e1c6fd0b8b6e2566cb70c2b18"
@@ -950,7 +955,7 @@
   dependencies:
     spark-md5 "^3.0.0"
 
-"@rails/ujs@^6.0.5":
+"@rails/ujs@^6.0.0":
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/@rails/ujs/-/ujs-6.0.5.tgz#53e63a02271a7494a7925a30ed0a3672ec177337"
   integrity sha512-6nEyc+7jhVQGx84sO7yalQq1G+ZgJa72/5q9Avsm4yIZqVymvLEftK90+B0XZhvJzbiNnbDIFC4Wx5mgHo7lTw==
@@ -1542,11 +1547,6 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
-
-bootstrap@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.4.1.tgz#c3a347d419e289ad11f4033e3c4132b87c081d72"
-  integrity sha512-yN5oZVmRCwe5aKwzRj6736nSmKDX7pLYwsXiCj/EYmo16hODaBiT4En5btW/jhBF/seV+XMx3aYwukYC3A49DA==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -6579,6 +6579,11 @@ tty-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
   integrity sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY=
+
+turbolinks@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/turbolinks/-/turbolinks-5.2.0.tgz#e6877a55ea5c1cb3bb225f0a4ae303d6d32ff77c"
+  integrity sha512-pMiez3tyBo6uRHFNNZoYMmrES/IaGgMhQQM+VFF36keryjb5ms0XkVpmKHkfW/4Vy96qiGW3K9bz0tF5sK9bBw==
 
 type-is@~1.6.18:
   version "1.6.18"

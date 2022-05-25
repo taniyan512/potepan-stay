@@ -42,3 +42,13 @@
 .alert {
     color: black;
 }
+
+.field::after {
+    content: "必須";
+    color: #fff;
+    background-color: #ff0000a8;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 0 5px;
+}
